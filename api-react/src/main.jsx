@@ -8,9 +8,10 @@ import App from './App.jsx'
 
 //Components
 import Home from "./components/Home.jsx"
+import Planets from './components/Planets.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home />
+    <Planets/>
   </StrictMode>,
 )
